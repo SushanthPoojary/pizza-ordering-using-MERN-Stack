@@ -17,7 +17,7 @@ const Navbar = () => {
             </div>
             <div className={styles.item}>
                 <div className={styles.telIcon}>
-                    <i class="fa-solid fa-phone"></i>
+                    <i className="fa-solid fa-phone"></i>
                 </div>
                 <div className={styles.texts}>
                     <div className={styles.text}>Order Now</div>
@@ -25,12 +25,12 @@ const Navbar = () => {
                 </div>
                 <div className={styles.icons}>
                     <div className={styles.icon}>
-                        <i class="fa-regular fa-user"></i>
+                        <i className="fa-regular fa-user"></i>
                     </div>
                     <div className={styles.icon}>
                         <div className={styles.iconItem}>
                             <div className={styles.cart}>
-                                <i class="fa-solid fa-cart-shopping"></i>
+                                <i className="fa-solid fa-cart-shopping"></i>
                             </div>
                             <div className={styles.cartQuantity}>2</div>
                         </div>

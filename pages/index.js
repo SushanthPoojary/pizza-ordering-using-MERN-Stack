@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Featured from "../components/Featured";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -19,10 +20,11 @@ export default function Home() {
           rel="stylesheet"
         ></link>
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
           rel="stylesheet"
         ></link>
       </Head>
+      <Featured />
     </div>
   );
 }
