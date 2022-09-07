@@ -1,0 +1,27 @@
+.container {
+  height: 40vh;
+}
+
+.items {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 25px;
+}
+
+.item {
+  width: 25%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(176, 155, 155, 0.75);
+  background-color: #eeeeee;
+}
+
+.pizzaName {
+  font-size: 24px;
+  font-weight: 700;
+}
